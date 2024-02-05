@@ -1,0 +1,14 @@
+# Site settings
+title: Halil Tuncer KAYA
+email: haliltuncerkaya@gmail.com
+description: > # keep this and put description below
+  Game Designer
+url: "haliltuncerkaya.github.io" # the base hostname & protocol for your site
+linkedin_url: "https://www.linkedin.com/in/halil-tuncer-kaya-631803bb/"
+github_username: haliltuncerkaya
+twitter_username: umarth13
+footer_text: "This site uses <a href='https://github.com/gamingportfolio/urban-theme-portfolio'>urban-theme (portfolio)</a>."
+
+# Build settings
+markdown: kramdown
+permalink: pretty
