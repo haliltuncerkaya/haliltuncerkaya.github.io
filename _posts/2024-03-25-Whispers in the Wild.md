@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Whispers in the Wild"
-summary: "Game Designer /Director"
+summary: "Game Designer, Director"
 date:   2024-03-21 00:00:00
 preview: /assets/wiw.png
 ---
@@ -93,8 +93,8 @@ The tasks I undertook can be can be grouped as follows:
 </table>
 
 [Mechanics Design Document](/assets/winwMechanics.pdf)
-
-
+---
+---
 ### Game Page on itch.io
 
 <iframe frameborder="0" src="https://itch.io/embed/2583046" width="552" height="167"><a href="https://htramu.itch.io/whispersinthewild">Whispers in the Wild</a></iframe>
