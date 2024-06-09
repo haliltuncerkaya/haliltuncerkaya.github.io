@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Whispers in the Wild"
-summary: "Game Designer /Director"
+summary: "Game Designer, Director"
 date:   2024-03-21 00:00:00
 preview: /assets/wiw.png
 ---
