@@ -60,11 +60,11 @@ Question #1: What is the strongest design choice in Boltgun?
 
 Boltgun, a boomer shooter inspired by early 3D FPS titles like Doom and Quake, seems to have made its strongest design choice in its genre selection. This is evident in several ways:
 
-- Gameplay-Genre Alignment: The core fantasy of being a genetically enhanced superhuman soldier aligns perfectly with the fast-paced, aggressive gameplay mechanics characteristic of boomer shooters.
+-Gameplay-Genre Alignment: The core fantasy of being a genetically enhanced superhuman soldier aligns perfectly with the fast-paced, aggressive gameplay mechanics characteristic of boomer shooters.
 
-- Simplified Development: The genre's emphasis on simple mechanics likely freed programmers and designers from implementing complex systems like cover mechanics or iron sights, streamlining development and easing the level design process.
+-Simplified Development: The genre's emphasis on simple mechanics likely freed programmers and designers from implementing complex systems like cover mechanics or iron sights, streamlining development and easing the level design process.
 
-- Cost-Effective Art Style:  The retro-inspired pixelated art style circumvents the challenges and costs associated with creating realistic 3D graphics.
+-Cost-Effective Art Style:  The retro-inspired pixelated art style circumvents the challenges and costs associated with creating realistic 3D graphics.
 
 These factors likely saved the development team significant time and resources, allowing for further polish gameplay mechanics of the game.
 
