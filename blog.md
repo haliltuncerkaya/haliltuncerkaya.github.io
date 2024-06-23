@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Blog"
+title: "Design Insights"
 permalink: /blog/
 ---
 <style>
@@ -36,19 +36,98 @@ permalink: /blog/
 
 <nav>
     <ul>
-		<li><a href="#section1">Rock, Paper, Scissors and… Flamethrower!?</a></li>
-        <li><a href="#section2">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
-		<li><a href="#section3">Game Design Breakdown of World of Goo</a></li>
-        <li><a href="#section4">Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</a></li>
-        <li><a href="#section5">A Look to The Troop's Accuracy Mechanics</a></li>
-		<li><a href="#section6">Player's Frustration, Designer's Insight</a></li>
-		<li><a href="#section7">Notes from Game Jams</a></li>
+		<li><a href="#mockInt1">Self Game Design Interview #1</a></li>
+		<li><a href="#rpsf">Rock, Paper, Scissors and… Flamethrower!?</a></li>
+        <li><a href="#dp_mortem">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
+		<li><a href="#goo">Game Design Breakdown of World of Goo</a></li>
+        <li><a href="#demoman">Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</a></li>
+        <li><a href="#datroop">A Look to The Troop's Accuracy Mechanics</a></li>
+		<li><a href="#achivement">Player's Frustration, Designer's Insight</a></li>
+		<li><a href="#danotez">Notes from Game Jams</a></li>
     </ul>
 </nav>
 
 ---------------------------
+<section id="mockInt1">
+    <h2>Self Game Design Interview #1</h2>
+</section>
 
-<section id="section1">
+Am I crazy? Interviewing myself on game design!? Sure, why not? Let's get the show on the road!
+
+Game: Warhammer 40,000: Boltgun - [Steam Page](https://store.steampowered.com/app/2005010/Warhammer_40000_Boltgun/){:target="_blank"}
+
+Question #1: What is the strongest design choice in Boltgun? 
+
+Boltgun, a boomer shooter inspired by early 3D FPS titles like Doom and Quake, seems to have made its strongest design choice in its genre selection. This is evident in several ways:
+
+Gameplay-Genre Alignment: The core fantasy of being a genetically enhanced superhuman soldier aligns perfectly with the fast-paced, aggressive gameplay mechanics characteristic of boomer shooters.
+Simplified Development: The genre's emphasis on simple mechanics likely freed programmers and designers from implementing complex systems like cover mechanics or iron sights, streamlining development and easing the level design process.
+Cost-Effective Art Style:  The retro-inspired pixelated art style circumvents the challenges and costs associated with creating realistic 3D graphics.
+
+These factors likely saved the development team significant time and resources, allowing for further polish gameplay mechanics of the game.
+
+Question #2: What is the core loop of Boltgun?
+
+![Picture 12](/assets/boltgunLoop.png)
+
+Question #3: What would you change in Boltgun in terms of game mechanics?
+
+Weapon Strength System: 
+
+Currently, every weapon has a strength value meant to be matched with enemy toughness. Low-strength weapons deal less damage to higher-toughness enemies, and vice versa. However, its representation is confusing; it causes players to assume that high-strength weapons deal high damage. For example, although the Plasma Gun has a strength of 7, it has a lower damage output compared to relatively low-strength weapons like the Heavy Bolter (strength 5). The highest damage weapon, the Grav Cannon, has a strength of 5, but it literally vaporizes lesser enemies and hits bosses hard.
+
+```
+My Suggestion: 
+
+Either remove the strength system and force players to use their own judgment on weapons via trial and error, or make the equation "high strength weapons = high damage" true.
+
+```
+
+Pick-up Radius:
+
+The movement mechanics in the game are fluid. It feels and plays much faster than modern shooters aiming to be realistic, thanks to good level design and an almost flawless implementation of the collision system. However, the pick-up radius hinders this. It is so low that the player has to go directly on top of the pick-ups to collect them.
+
+```
+My Suggestion: 
+
+Either increase the 3D collision shape for pick-ups to 3x or 4x their original size, or make them float to the player like in Doom (2016) and its sequels.
+
+```
+
+![Picture 13](/assets/boltgunRad.jpg)
+
+Melee Combat:
+
+The game has a basic melee fighting system where pressing an assigned key allows you to hit enemies with a chainsword. Although incredibly fun, this is a high-risk, low-reward move; other enemies are free to shoot you because you are interlocked with your enemy while hacking them to pieces. It offers no extra rewards for doing something that risky.
+
+*A detailed insight: This is a "cursed problem" for the developers. If they choose to implement a detailed melee system, the game would move away from the boomer shooter genre. Additionally, it would complicate development and processes. The simple solution (which seems to have been chosen) makes it lackluster.*
+
+```
+My Suggestion: 
+
+Making the melee combat "high risk, high reward." If you kill an enemy in melee, you should be showered with armor and health rewards. A second choice would be implementing melee as a finishing move or execution mechanic. This mechanic is featured in the developers’ inspiration games - [as seen here](https://www.gamesindustry.biz/nailing-down-warhammer-40000-boltguns-mix-of-modern-and-retro): Doom (2016) and the Doom mod "Brutal Doom." This will also fit perfectly in a game set in the Warhammer 40,000 universe. 
+
+```
+Power-Ups and No Carry Over: 
+
+The game's power-ups are inconsistent. Some are well-executed, like the Aura of Doom (similar to Doom's quad damage), while others are nearly useless, such as the Munitions Boon, which only increases clip size. Since they are hidden as secrets in the level layout, their effectiveness is diminished. Additionally, items, armor, health, and weapon upgrades (obtained through the Machine Spirit power-up) do not carry over to the next mission.
+
+My suggestion: Rework the secret system and power-up placements. Power-ups like the Aura of Doom enhance the gameplay because the game's shooting mechanics are solid, and these power-ups multiply the fun factor. I would make power-ups more common throughout the levels. Secrets should be reserved for specialized ammo and Machine Spirit power-ups. Furthermore, players should be allowed to carry over their pickups of any kind to the next mission.
+
+```
+My Suggestion:
+
+Reworking of the secret system and power-up placements. Power-ups like the Aura of Doom enhance the gameplay because the game's shooting mechanics are solid, and these power-ups multiply the fun factor. I would make power-ups more common throughout the levels. Secrets should be reserved for specialized ammo and Machine Spirit power-ups. Furthermore, players should be allowed to carry over their pickups of any kind to the next mission.
+
+```
+Question #4: Where Do You See Yourself in 5 Years?
+
+Bruh!
+
+---------------------------
+---------------------------
+
+<section id="rpsf">
     <h2>Rock, Paper, Scissors and… Flamethrower!?</h2>
 </section>
 Rock, Paper, Scissors (hereafter “RPS”) is a centuries-old game with good reason: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and serves as a base for gameplay balance adjustments in video games (especialy in strategy games like Age of Empires, Starcraft etc.). A flow channel graph and visualized balance diagram for RPS can be found below:
@@ -89,7 +168,7 @@ Adding the fourth and trying to make it the game balanced, resulted in too many 
 ---------------------------
 
 
-<section id="section2">
+<section id="dp_mortem">
     <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
 </section>
 
@@ -137,7 +216,7 @@ Participating in Scream Jam 2023 and creating Darkness Profound was a learning a
 ---------------------------
 ---------------------------
 
-<section id="section3">
+<section id="goo">
     <h2>Game Design Breakdown of World of Goo</h2>
 </section>
 
@@ -159,7 +238,7 @@ As addressed in the preceding sections of this game design breakdown we came to 
 ---------------------------
 ---------------------------
 
-<section id="section4">
+<section id="demoman">
     <h2>Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</h2>
 </section>
 
@@ -180,7 +259,7 @@ The third and the most significant problem is that this mission is not mandatory
 ---------------------------
 ---------------------------
 
-<section id="section5">
+<section id="datroop">
     <h2>A Look to The Troop's Accuracy Mechanics</h2>
 </section>
 
@@ -208,7 +287,7 @@ These two mechanics create a depth of tactical choices. How many tiles should I 
 ---------------------------
 ---------------------------
 
-<section id="section6">
+<section id="achievement">
     <h2>Player's Frustration, Designer's Insight</h2>
 </section>  
 
@@ -231,7 +310,7 @@ My player side and game designer side have now made peace with each other. From 
 
 ---------------------------
 ---------------------------
-<section id="section7">
+<section id="danotez">
     <h2>Notes from Game Jams  </h2>
 </section>  
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Other Stuff"
+title: "Other Design Works"
 permalink: /otherstuff/
 ---
 
