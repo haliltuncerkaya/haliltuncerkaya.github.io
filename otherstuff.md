@@ -3,6 +3,23 @@ layout: page
 title: "Other Design Works"
 permalink: /otherstuff/
 ---
+## Failed Jam Documents
+
+Not all jams are successful. Our team couldn't manage to submit to the [Mystery Game Jam 2024](https://itch.io/jam/mystery-game-jam-2024). I have provided my design docs for the first-person escape room game we tried to create:
+
+[One Page GDD](/assets/gddDraft.pdf)
+
+[Game Loop Technical Document](/assets/loopDraft#2.pdf)
+
+[Level Layout Design](/assets/homeDesign.pdf)
+
+[Story Draft](/assets/storyDraft.pdf)
+
+My block-out on Unity:
+
+![Picture 2](/assets/mysteryJam1.jpg)
+![Picture 3](/assets/mysteryJam2.jpg)
+
 
 ## Paper Tabletop Game Project
 

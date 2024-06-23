@@ -60,9 +60,11 @@ Question #1: What is the strongest design choice in Boltgun?
 
 Boltgun, a boomer shooter inspired by early 3D FPS titles like Doom and Quake, seems to have made its strongest design choice in its genre selection. This is evident in several ways:
 
-Gameplay-Genre Alignment: The core fantasy of being a genetically enhanced superhuman soldier aligns perfectly with the fast-paced, aggressive gameplay mechanics characteristic of boomer shooters.
-Simplified Development: The genre's emphasis on simple mechanics likely freed programmers and designers from implementing complex systems like cover mechanics or iron sights, streamlining development and easing the level design process.
-Cost-Effective Art Style:  The retro-inspired pixelated art style circumvents the challenges and costs associated with creating realistic 3D graphics.
+- Gameplay-Genre Alignment: The core fantasy of being a genetically enhanced superhuman soldier aligns perfectly with the fast-paced, aggressive gameplay mechanics characteristic of boomer shooters.
+
+- Simplified Development: The genre's emphasis on simple mechanics likely freed programmers and designers from implementing complex systems like cover mechanics or iron sights, streamlining development and easing the level design process.
+
+- Cost-Effective Art Style:  The retro-inspired pixelated art style circumvents the challenges and costs associated with creating realistic 3D graphics.
 
 These factors likely saved the development team significant time and resources, allowing for further polish gameplay mechanics of the game.
 
@@ -76,23 +78,16 @@ Weapon Strength System:
 
 Currently, every weapon has a strength value meant to be matched with enemy toughness. Low-strength weapons deal less damage to higher-toughness enemies, and vice versa. However, its representation is confusing; it causes players to assume that high-strength weapons deal high damage. For example, although the Plasma Gun has a strength of 7, it has a lower damage output compared to relatively low-strength weapons like the Heavy Bolter (strength 5). The highest damage weapon, the Grav Cannon, has a strength of 5, but it literally vaporizes lesser enemies and hits bosses hard.
 
-```
-My Suggestion: 
 
-Either remove the strength system and force players to use their own judgment on weapons via trial and error, or make the equation "high strength weapons = high damage" true.
+*My Suggestion: Either remove the strength system and force players to use their own judgment on weapons via trial and error, or make the equation "high strength weapons = high damage" true*
 
-```
 
 Pick-up Radius:
 
 The movement mechanics in the game are fluid. It feels and plays much faster than modern shooters aiming to be realistic, thanks to good level design and an almost flawless implementation of the collision system. However, the pick-up radius hinders this. It is so low that the player has to go directly on top of the pick-ups to collect them.
 
-```
-My Suggestion: 
 
-Either increase the 3D collision shape for pick-ups to 3x or 4x their original size, or make them float to the player like in Doom (2016) and its sequels.
-
-```
+*My Suggestion: Either increase the 3D collision shape for pick-ups to 3x or 4x their original size, or make them float to the player like in Doom (2016) and its sequels.*
 
 ![Picture 13](/assets/boltgunRad.jpg)
 
@@ -100,29 +95,21 @@ Melee Combat:
 
 The game has a basic melee fighting system where pressing an assigned key allows you to hit enemies with a chainsword. Although incredibly fun, this is a high-risk, low-reward move; other enemies are free to shoot you because you are interlocked with your enemy while hacking them to pieces. It offers no extra rewards for doing something that risky.
 
-*A detailed insight: This is a "cursed problem" for the developers. If they choose to implement a detailed melee system, the game would move away from the boomer shooter genre. Additionally, it would complicate development and processes. The simple solution (which seems to have been chosen) makes it lackluster.*
+A detailed insight: This is a "cursed problem" for the developers. If they choose to implement a detailed melee system, the game would move away from the boomer shooter genre. Additionally, it would complicate development and processes. The simple solution (which seems to have been chosen) makes it lackluster.
 
-```
-My Suggestion: 
 
-Making the melee combat "high risk, high reward." If you kill an enemy in melee, you should be showered with armor and health rewards. A second choice would be implementing melee as a finishing move or execution mechanic. This mechanic is featured in the developers’ inspiration games - [as seen here](https://www.gamesindustry.biz/nailing-down-warhammer-40000-boltguns-mix-of-modern-and-retro): Doom (2016) and the Doom mod "Brutal Doom." This will also fit perfectly in a game set in the Warhammer 40,000 universe. 
+*My Suggestion: Making the melee combat "high risk, high reward." If you kill an enemy in melee, you should be showered with armor and health rewards. A second choice would be implementing melee as a finishing move or execution mechanic. This mechanic is featured in the developers’ inspiration games - [as seen here](https://www.gamesindustry.biz/nailing-down-warhammer-40000-boltguns-mix-of-modern-and-retro): Doom (2016) and the Doom mod "Brutal Doom." This will also fit perfectly in a game set in the Warhammer 40,000 universe.*
 
-```
+
 Power-Ups and No Carry Over: 
 
 The game's power-ups are inconsistent. Some are well-executed, like the Aura of Doom (similar to Doom's quad damage), while others are nearly useless, such as the Munitions Boon, which only increases clip size. Since they are hidden as secrets in the level layout, their effectiveness is diminished. Additionally, items, armor, health, and weapon upgrades (obtained through the Machine Spirit power-up) do not carry over to the next mission.
 
-My suggestion: Rework the secret system and power-up placements. Power-ups like the Aura of Doom enhance the gameplay because the game's shooting mechanics are solid, and these power-ups multiply the fun factor. I would make power-ups more common throughout the levels. Secrets should be reserved for specialized ammo and Machine Spirit power-ups. Furthermore, players should be allowed to carry over their pickups of any kind to the next mission.
+*My Suggestion: Reworking of the secret system and power-up placements. Power-ups like the Aura of Doom enhance the gameplay because the game's shooting mechanics are solid, and these power-ups multiply the fun factor. I would make power-ups more common throughout the levels. Secrets should be reserved for specialized ammo and Machine Spirit power-ups. Furthermore, players should be allowed to carry over their pickups of any kind to the next mission.*
 
-```
-My Suggestion:
-
-Reworking of the secret system and power-up placements. Power-ups like the Aura of Doom enhance the gameplay because the game's shooting mechanics are solid, and these power-ups multiply the fun factor. I would make power-ups more common throughout the levels. Secrets should be reserved for specialized ammo and Machine Spirit power-ups. Furthermore, players should be allowed to carry over their pickups of any kind to the next mission.
-
-```
 Question #4: Where Do You See Yourself in 5 Years?
 
-Bruh!
+Bruh.
 
 ---------------------------
 ---------------------------
