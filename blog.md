@@ -156,10 +156,10 @@ Adding the fourth and trying to make it the game balanced, resulted in too many 
 
 
 <section id="dp_mortem">
-    <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
+    <h2>Analysing the Missteps: A Post-Mortem of Darkness Profound</h2>
 </section>
 
-Game Jams are miniature forms of gaming industry. With limited resources and limited time, teams and individuals are trying to create games; make them fun, make them pleasing to the eye etc.  Just like in the industry itself, some come up with great ones, some fail miserably and some create mediocre games, like me. My last jam entry, named **[Darkness Profound](https://htk.github.io/2023/10/28/darknesProfound/)**, submitted to Scream Jam 2023, was placed 159th out of 494 entries and received numerous 3-point ratings out of 5 that Gauss would be proud if he saw this bell-curve on the game’s rating distribution graph:  
+Game Jams are miniature forms of gaming industry. With limited resources and limited time, teams and individuals are trying to create games; make them fun, make them pleasing to the eye etc.  Just like in the industry itself, some come up with great ones, some fail miserably and some create mediocre games, like me. My jam entry, named **[Darkness Profound](https://htk.github.io/2023/10/28/darknesProfound/)**, submitted to Scream Jam 2023, was placed 159th out of 494 entries and received numerous 3-point ratings out of 5 that Gauss would be proud if he saw this bell-curve on the game’s rating distribution graph:  
   
   
 ![Picture 7](/assets/blog_DP_gaussProud.png)
