@@ -66,7 +66,7 @@ Boltgun, a boomer shooter inspired by early 3D FPS titles like Doom and Quake, s
 
 -Cost-Effective Art Style:  The retro-inspired pixelated art style circumvents the challenges and costs associated with creating realistic 3D graphics.
 
-These factors likely saved the development team significant time and resources, allowing for further polish gameplay mechanics of the game.
+These factors likely saved the development team significant time and resources, allowing for further polish game-play mechanics of the game.
 
 Question #2: What is the core loop of Boltgun?
 
@@ -105,7 +105,7 @@ Power-Ups and No Carry Over:
 
 The game's power-ups are inconsistent. Some are well-executed, like the Aura of Doom (similar to Doom's quad damage), while others are nearly useless, such as the Munitions Boon, which only increases clip size. Since they are hidden as secrets in the level layout, their effectiveness is diminished. Additionally, items, armor, health, and weapon upgrades (obtained through the Machine Spirit power-up) do not carry over to the next mission.
 
-*My Suggestion: Reworking of the secret system and power-up placements. Power-ups like the Aura of Doom enhance the gameplay because the game's shooting mechanics are solid, and these power-ups multiply the fun factor. I would make power-ups more common throughout the levels. Secrets should be reserved for specialized ammo and Machine Spirit power-ups. Furthermore, players should be allowed to carry over their pickups of any kind to the next mission.*
+*My Suggestion: Reworking of the secret system and power-up placements. Power-ups like the Aura of Doom enhance the game-play because the game's shooting mechanics are solid, and these power-ups multiply the fun factor. I would make power-ups more common throughout the levels. Secrets should be reserved for specialized ammo and Machine Spirit power-ups. Furthermore, players should be allowed to carry over their pickups of any kind to the next mission.*
 
 Question #4: Where Do You See Yourself in 5 Years?
 
@@ -117,7 +117,7 @@ Bruh.
 <section id="rpsf">
     <h2>Rock, Paper, Scissors and… Flamethrower!?</h2>
 </section>
-Rock, Paper, Scissors (hereafter “RPS”) is a centuries-old game with good reason: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and serves as a base for gameplay balance adjustments in video games (especialy in strategy games like Age of Empires, Starcraft etc.). A flow channel graph and visualized balance diagram for RPS can be found below:
+Rock, Paper, Scissors (hereafter “RPS”) is a centuries-old game with good reason: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and serves as a base for game-play balance adjustments in video games (especially in strategy games like Age of Empires, Starcraft etc.). A flow channel graph and visualized balance diagram for RPS can be found below:
 
 ![Picture 1](/assets/blog_RPS1.png)
 
@@ -144,7 +144,7 @@ With this new rule, every weapon has equal chance to win and lose, but with an i
 
 ![Picture 5](/assets/blog_RPS5.png)
 
-Before the conclusion, adressing a five-weapon version is in order, which has already been explored in the eighth episode of the second season of Big Bang Theory, where Raj and Sheldon attempted to resolve their dispute using the [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock){:target="_blank"}. Despite being somewhat more balanced and enjoyable with a reduced number of ties, this version tends to overcomplicate matters, placing it in the upper section of the flow chart diagram:
+Before the conclusion, addressing a five-weapon version is in order, which has already been explored in the eighth episode of the second season of Big Bang Theory, where Raj and Sheldon attempted to resolve their dispute using the [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock){:target="_blank"}. Despite being somewhat more balanced and enjoyable with a reduced number of ties, this version tends to over-complicate matters, placing it in the upper section of the flow chart diagram:
 
 ![Picture 6](/assets/blog_RPS6.png)
 
@@ -169,12 +169,12 @@ So, where did I go wrong? Why so many 3-point ratings instead of 5?  This postmo
 
 ### Scope of the Game
 The first shortcoming, and the one to rule them all, was the scope of the game. The design in my mind proved to be too ambitious, at least for a solo participant.
-I chose an enveloping darkness as the main theme for the game. The player would be sorrounded by an encompassing, thick, fog-like darkness, only to be pierced by the flashlight of the player. Everyhing is engulfed and becomes invisible in this darkness. Based on the enveloping darkness theme, I devised two design pillars: Health and Sanity. Player had to utilize these resources carefully in order to succeed. I visualized it with this graphic:
+I chose an enveloping darkness as the main theme for the game. The player would be surrounded by an encompassing, thick, fog-like darkness, only to be pierced by the flashlight of the player. Everything is engulfed and becomes invisible in this darkness. Based on the enveloping darkness theme, I devised two design pillars: Health and Sanity. Player had to utilize these resources carefully in order to succeed. I visualized it with this graphic:
 
 ![Picture 8](/assets/blog_DP_designPillars.png)
 
 Sanity would decrease when the player turns the flashlight off and goes into stealth mode. Sanity would decrease permanently, with no way to replenish it. When it reaches zero, it results in a game over. The core design intent was to create trade-off between limited resources for a layer of complexity and challenge – should the player opt for stealth and risk losing sanity, or should they engage in combat, risking limited ammo and health?
-However, it became apparent that due to the limitations of Construct 3's free version and the constrained time available for development, I couldn't implement the sanity system in full. Without the implementation of a design pillar, the gameplay suffered from a lack of depth and challenge. 
+However, it became apparent that due to the limitations of Construct 3's free version and the constrained time available for development, I couldn't implement the sanity system in full. Without the implementation of a design pillar, the game-play suffered from a lack of depth and challenge. 
 
 *Afterthought: This could have been salvaged. For example, after turning the flashlight off, an unnatural being could have attacked player after a certain time in passed in darkness. With a chilling sound effect and visual cues this could be the tension creator I was looking for.*
 
@@ -195,10 +195,10 @@ Darkness Profound's level design features large, empty spaces intended for playe
 
 ### Mechanics Issues
 - A minor but significant mistake was setting the movement speed of zombies lower than the player movement speed. Players could easily evade zombies by just moving faster than them. This speed value should have been at least equal to or greater than the player speed.
-- Some players complained about the lack of a secondary weapon. They had a valid point. If the player ran out of bullets, they had no other option. This greatly limited the gameplay and caused frustration. Implementing a second weapon, even a simple melee weapon, would have been appropriate.
+- Some players complained about the lack of a secondary weapon. They had a valid point. If the player ran out of bullets, they had no other option. This greatly limited the game-play and caused frustration. Implementing a second weapon, even a simple melee weapon, would have been appropriate.
 - The game lacked an in-game tutorial. Even though they were given detailed instructions on the game page, players often ignored them. I received complaints about not knowing about certain mechanics until they finished the game or read other people’s comments. Even a basic tutorial would have been better than no tutorial.
 
-Participating in Scream Jam 2023 and creating Darkness Profound was a learning and adaptation journey. While the final product might not have achieved its full potential, the experience itself was invaluable. It highlighted the importance of scope management, the power of playtesting, and the need for flexibility in game development. Even though the game itself didn't reach the heights I initially hoped for, I wouldn't trade the experience for anything. I learned immensely, and I'm excited to apply these lessons to my future work.
+Participating in Scream Jam 2023 and creating Darkness Profound was a learning and adaptation journey. While the final product might not have achieved its full potential, the experience itself was invaluable. It highlighted the importance of scope management, the power of play-testing, and the need for flexibility in game development. Even though the game itself didn't reach the heights I initially hoped for, I wouldn't trade the experience for anything. I learned immensely, and I'm excited to apply these lessons to my future work.
 
 ---------------------------
 ---------------------------
@@ -237,7 +237,7 @@ This mission is the second given by Avery Carrington. It requires the player to 
 
 So, there are no design issues related to the mission itself. But what is wrong with it then?
 
-Firstly, there is an issue related to PC players. It is evident that this mission is designed to be played with a gamepad, as the developers prioritized console versions and their control schemes. Without rumble pads and with the awkward keyboard control scheme of the PC version, this mission became even more challenging. Also, it should be remembered that, when Vice City was released in 2002, gamepads were not a common accesory in PC gaming.
+Firstly, there is an issue related to PC players. It is evident that this mission is designed to be played with a gamepad, as the developers prioritized console versions and their control schemes. Without rumble pads and with the awkward keyboard control scheme of the PC version, this mission became even more challenging. Also, it should be remembered that, when Vice City was released in 2002, gamepads were not a common accessory in PC gaming.
 
 Second one is the timing of the mission's appearance. Depending on your playstyle, this mission can be encountered very early in the game, around the 9th or 10th mission. With the skills required to handle this mission, it should have appeared later in the game, perhaps as the 40th mission or so (Vice City offers a total of 59 missions).
 
