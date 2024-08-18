@@ -156,7 +156,7 @@ Adding the fourth and trying to make it the game balanced, resulted in too many 
 
 
 <section id="dp_mortem">
-    <h2>Analysing the Missteps: A Post-Mortem of Darkness Profound</h2>
+    <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
 </section>
 
 Game Jams are miniature forms of gaming industry. With limited resources and limited time, teams and individuals are trying to create games; make them fun, make them pleasing to the eye etc.  Just like in the industry itself, some come up with great ones, some fail miserably and some create mediocre games, like me. My jam entry, named **[Darkness Profound](https://htk.github.io/2023/10/28/darknesProfound/)**, submitted to Scream Jam 2023, was placed 159th out of 494 entries and received numerous 3-point ratings out of 5 that Gauss would be proud if he saw this bell-curve on the game’s rating distribution graph:  
@@ -189,9 +189,9 @@ Darkness Profound's level design features large, empty spaces intended for playe
 *Afterthought: A more claustrophobic level design, based on corridors and rooms, with less space to maneuver and avoid zombies,, could have heightened the sense of dread.*
 
 ### "Game Feel" Issues
-- The game is not dark enough. The darkness effect is created with a black sprite placed on top of other sprites. This sprite covers the viewport, uses a blend mode of “source out” and has an alpha value of 222 in the RGB scale for opacity. This value could have been higher, like 235, to further enhance the darker tone.
-- The usage of fonts in menus and game screen is inconsistent. The font used on the logo does not match the visual style of the game; many players expected a gothic game but found a modern day visual game.
-- The music repeats too much. There is only one song, which is 2 minutes and 35 seconds long, and it loops continuously. It would be better to give breaks between loops and add more than one song.
+- Game is not dark enough. The darkness effect is created with a black sprite placed on top of other sprites, arranged via Z order. This sprite covers the viewport, uses a blend mode of “source out” and has an alpha value of 222 in the RGB scale for opacity. This value could have been higher, like 235, to further enhance the darker tone.
+- Usage of fonts in menus and game screen is inconsistent. The font used on the logo does not match the visual style of the game; many players expected a gothic game but found a modern day visual game.
+- Music repeats too much. There is only one song, which is 2 minutes and 35 seconds long, and it loops continuously. It would be better to give breaks between loops and add more than one song.
 
 ### Mechanics Issues
 - A minor but significant mistake was setting the movement speed of zombies lower than the player movement speed. Players could easily evade zombies by just moving faster than them. This speed value should have been at least equal to or greater than the player speed.
@@ -241,7 +241,7 @@ Firstly, there is an issue related to PC players. It is evident that this missio
 
 Second one is the timing of the mission's appearance. Depending on your playstyle, this mission can be encountered very early in the game, around the 9th or 10th mission. With the skills required to handle this mission, it should have appeared later in the game, perhaps as the 40th mission or so (Vice City offers a total of 59 missions).
 
-The third and the most significant problem is that this mission is not mandatory to finish the story; Demoliton Man is optional and required only for 100% completion. However, this information is not relayed to the player. There is no indication anywhere, in any form, like a different marker on the map compared to the usual Grand Theft Auto mission style or a message in the briefing. Even worse, after the Cop Land mission, no other markings will be left except the “A” letter of this mission (assuming the player undertook all initial story missions). To make the game progress further, the player should buy assets and complete their respective missions in order for the main story missions to reappear. This information is only mentioned once in the ending cutscene of the Shakedown mission as if it's an optional feature. Avery's phone call after the Shakedown mission hints at it slightly, but no other information or guidance is provided to the player. It is easy to assume that, without passing this mission, the story would not continue. Many people must have given up in frustration, thinking the they are stuck (there was no YouTube back in 2002, even Google was a toddler). This is a significant design mistake; the game should have clearly advertised the direction to the player.
+The third and the most significant problem is that this mission is not mandatory to finish the story; Demolition Man is optional and required only for 100% completion. However, this information is not relayed to the player. There is no indication anywhere, in any form, like a different marker on the map compared to the usual Grand Theft Auto mission style or a message in the briefing. Even worse, after the Cop Land mission, no other markings will be left except the “A” letter of this mission (assuming the player undertook all initial story missions). To make the game progress further, the player should buy assets and complete their respective missions in order for the main story missions to reappear. This information is only mentioned once in the ending cutscene of the Shakedown mission as if it's an optional feature. Avery's phone call after the Shakedown mission hints at it slightly, but no other information or guidance is provided to the player. It is easy to assume that, without passing this mission, the story would not continue. Many people must have given up in frustration, thinking the they are stuck (there was no YouTube back in 2002, even Google was a toddler). This is a significant design mistake; the game should have clearly advertised the direction to the player.
 
 ---------------------------
 ---------------------------
